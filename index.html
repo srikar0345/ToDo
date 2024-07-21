@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APPLICATION BY VIKASH07</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="td-bg-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="td-heading">TO-DO APPLICATION</h1>
+                    <h2 class="create-task-heading">
+                        Create <span class="create-task-heading-subpart">New Task</span>
+                    </h2>
+                    <input type="text" id="tdUserInput" class="td-user-input" placeholder="Type here..." />
+                    <button class="button" id="addtdButton">Add</button>
+                    <h2 class="td-items-heading">
+                        My <span class="td-items-heading-subpart">Tasks</span>
+                    </h2>
+                    <ul class="td-items-container" id="tdItemsContainer"></ul>
+                    <div>
+                        <button class="btn btn-secondary mt-3" id="savetdButton">Save</button>
+                        <p id="message" class="para0"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
